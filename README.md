@@ -16,12 +16,13 @@ Reem Shamia
 * Run `cd server` and `npm i` to install the packages for the server- Node Js.
 ### Database Setup 📋
 * Make sure you have installed PostgreSQL and pgcli
-```
+
 * Run `cd server` and `npm i` to install the packages for the server- Node Js.
-` node server/database/config/createDb.sql`
- `node server/database/config/build.sql`
- if you want fake data run ```node server/database/config/fake.sql```
-```
+* `node server/database/config/createDb.sql` to create data base locally
+* `node server/database/config/build.sql`to create tables 
+
+``` if you want fake data run node server/database/config/fake.sql ```
+
 ------------------------------------------------
 ### Start the App :-
 To start the App Locally you can start the server First then start client-side or vice versa!
